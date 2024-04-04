@@ -1,1 +1,31 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.container {
+  width: 180px;
+  height: 250px;
+  background-color: white;
+  margin-top: 100px;
+  border-radius: 15px;
+}
+#paloB {
+  transform: rotate(180deg);
+  font-size: x-large;
+}
+#paloA {
+  font-size: x-large;
+}
+#numero {
+  display: inline;
+  height: 100px;
+  font-size: xx-large;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container2 {
+  align-items: center;
+  border: 1px;
+  margin-left: 310px;
+  margin-top: 5px;
+}

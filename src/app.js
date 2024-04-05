@@ -34,4 +34,13 @@ window.onload = function() {
   const cartaLoca = document.querySelector("#numero").textContent;
 
   document.querySelector("#numero").textContent = barajaAleatoria;
+
+  function clickbtn() {
+    document.location.reload();
+  }
+  const accion = document.getElementById("myBoton");
+  accion.onclick = clickbtn;
+  setInterval(() => {
+    document.location.reload();
+  }, 100000);
 };

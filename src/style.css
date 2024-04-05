@@ -11,14 +11,14 @@ body {
 }
 #paloB {
   transform: rotate(180deg);
-  font-size: x-large;
+  font-size: xx-large;
 }
 #paloA {
-  font-size: x-large;
+  font-size: xx-large;
 }
 #numero {
   display: inline;
-  height: 100px;
+  height: 90px;
   font-size: xx-large;
   align-items: center;
   font-family: Georgia, "Times New Roman", Times, serif;
